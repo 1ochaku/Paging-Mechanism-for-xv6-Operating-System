@@ -50,11 +50,3 @@ sanity_test
 ### Test Details
 
 The `sanity_test` program spawns 20 processes. Each process runs a loop of 10 iterations, where in each iteration, 4096 bytes of memory are allocated. The allocated memory is filled with specific values, and these values are later checked for correctness. Any discrepancy in the values indicates a failure in the paging mechanism.
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests if you have suggestions or improvements!
-
-## License
-
-This project is licensed under the MIT License.
